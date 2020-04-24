@@ -38,21 +38,22 @@ public class Main
 		  }else{
 		  System.out.println("Student "+St1+" ("+total[4]+"฿ *"+Hours+"Hours ="+(total[4]*Hours)+"฿)");
 		  System.out.println("Student "+St1+" will paid about = "+(total[4]*Hours)*St1+"฿");
-		  }      
-	 }
-}
-
+		 	 }      
+	 	}
+	}
 
 /**   ผลลัพธิ์ **/
 
-Enter number of Student :5                                                                       
-Enter Hours :1                                                                                   
-Student 5 (300฿ *1Hours =300฿)                                                                   
-Student 5 will paid about = 1500฿ 
+	Enter number of Student :5                                                                       
+	Enter Hours :1                                                                                   
+	Student 5 (300฿ *1Hours =300฿)                                                                   
+	Student 5 will paid about = 1500฿ 
 
 
-http://www.comscicafe.com/article/105/java-basic-exercises-1#.XqKhs8gza03
-HomeWork#23-04-2020
+
+
+HomeWork#23-04-2020 
+Credit: http://www.comscicafe.com/article/105/java-basic-exercises-1#.XqKhs8gza03
 ข้อที่ 1)
 จงเขียนโปรแกรมด้วยภาษา Java ให้แสดงผลออกทางจอภาพตามตัวอย่าง
     
