@@ -45,7 +45,55 @@ https://www.onlinegdb.com/online_java_compiler#
 	 		 }        
  		}
  	}
- 
+ OR
+  	
+	Scanner Keyboard = new Scanner(System.in);
+	  System.out.print("Enter number of Student :" );
+		int St1 = Keyboard.nextInt();
+     	System.out.print("Enter Hours :" );
+		int Hours = Keyboard.nextInt();
+		
+		int[] total = new int[6];
+		total[0]=500;
+		total[1]=450;
+		total[2]=400;
+		total[3]=350;
+		total[4]=300;
+		total[5]=total[5];
+		
+    switch (St1) {
+      case 1:
+	System.out.println("Student "+St1+" ("+total[0]+"฿ *"+Hours+"Hours ="+(total[0]*Hours)+"฿)");
+	System.out.println("Student "+St1+" will paid about = "+(total[0]*Hours)*St1+"฿");
+        break;
+      case 2:
+	System.out.println("Student "+St1+" ("+total[1]+"฿ *"+Hours+"Hours ="+(total[1]*Hours)+"฿)");
+	System.out.println("Student "+St1+" will paid about = "+(total[1]*Hours)*St1+"฿");
+        break;
+     case 3:
+	System.out.println("Student "+St1+" ("+total[2]+"฿ *"+Hours+"Hours ="+(total[2]*Hours)+"฿)");
+	System.out.println("Student "+St1+" will paid about = "+(total[2]*Hours)*St1+"฿");
+        break;
+     case 4:
+	System.out.println("Student "+St1+" ("+total[3]+"฿ *"+Hours+"Hours ="+(total[3]*Hours)+"฿)");
+	System.out.println("Student "+St1+" will paid about = "+(total[3]*Hours)*St1+"฿");
+        break;
+     case 5:
+	  System.out.println("Student "+St1+" ("+total[4]+"฿ *"+Hours+"Hours ="+(total[4]*Hours)+"฿)");
+	  System.out.println("Student "+St1+" will paid about = "+(total[4]*Hours)*St1+"฿");
+        break; 
+     default:
+	  System.out.println("Ohter Case");
+	  System.out.println("Student "+St1+" ("+total[4]+"฿ *"+Hours+"Hours ="+(total[4]*Hours)+"฿)");
+	  System.out.println("Student "+St1+" will paid about = "+(total[4]*Hours)*St1+"฿");
+    }
+        System.out.println();
+        System.out.print("Enter Money:" );
+        int MoneyIn = Keyboard.nextInt();
+    	for(int i=0; i <=0; i++){
+	    System.out.println("Exchange : "+(MoneyIn-(total[5]*Hours)*St1)+" ฿");
+	}
+   }
 
 /**   ผลลัพธิ์ **/
 
