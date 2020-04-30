@@ -94,6 +94,70 @@ https://www.onlinegdb.com/online_java_compiler#
 	    System.out.println("Exchange : "+(MoneyIn-(total[5]*Hours)*St1)+" ฿");
 	}
    }
+OR
+
+	public class Main
+	{
+		public static void main(String[] args) {
+	  	 
+	    Scanner sc = new Scanner(System.in);
+		System.out.print("Enter Student :");
+			int student = sc.nextInt();  
+		
+		System.out.print("Enter Hours :");
+		int hours = sc.nextInt();
+		
+		int[] total = new int[5];
+		total[0]=500;
+		total[1]=450;
+		total[2]=400;
+		total[3]=350;
+		total[4]=300;
+		
+		int indexOfTotalStu = 0;
+		int CaseOfStd = 0;
+		int Calcu = 0;
+		int ReciveMoney = 0;
+		
+		if(student >0)
+		{
+		    switch(student){
+		      case 1 :
+		    indexOfTotalStu = 0;
+		    break;
+		      case 2 :
+		    indexOfTotalStu = 1;
+		    break;
+		      case 3 :
+		    indexOfTotalStu = 2;
+		    break;
+		      case 4 :
+		    indexOfTotalStu = 3;
+		    break;
+		    default :
+		    indexOfTotalStu = 4;
+		     break;
+		    }
+		int calcu = total[indexOfTotalStu]*hours;
+	    System.out.println("Amout: "+calcu+ "฿");
+	    
+	    int Totalcal = calcu*student;
+	    System.out.println("Amout for paid : "+Totalcal+ "฿");
+		 
+	    System.out.print("Enter Money:");
+		int MoneyIn = sc.nextInt();
+		
+		ReciveMoney = MoneyIn-calcu;
+	    System.out.print("Exchange : " +ReciveMoney+ "฿");
+		    
+		}
+		else 
+		{
+		    	System.out.println("Can't calculate becase out of Enter student or Hours.");
+		}
+	
+		}
+	}
 
 /**   ผลลัพธิ์ **/
 
